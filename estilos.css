@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Laila&family=Quicksand&display=swap');
+
+body,h1,ul,li{
+    padding: 0;
+    margin: 0;
+}
+
+
+
+body {
+    background-color: rgb(142, 188, 226);
+    font-family: 'Quicksand', sans-serif;
+    
+}
+h1{
+    color: rgb(255, 255, 255);
+    background-color: rgb(138,148,239);
+    
+}
+h1,h2,h3,h4 {
+    font-family: 'Laila', serif;
+    
+}
+
+div {
+    width: 700px;
+    max-width: 85%;
+    margin: 0 auto;
+}
+header {
+    background-color: rgb(138, 148, 239); 
+    height: 95px;
+    text-align: center;
+    padding-top: 25px;
+}
+
+article{
+    background-color: rgb(109, 135, 229);
+    padding: 5px;
+    margin: 5px;
+}
+footer{
+    color: rgb(255, 255, 255);
+    background-color:rgb(57, 92, 216);
+    padding: 20px;
+    text-align: center;
+  border: 2px solid  rgb(134, 134, 220);
+   
+}
+.destaca-blanco {
+    color: white;
+}
+.centrada {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 4px dotted rgb(95, 62, 205);
+    width: 60%;
+}
+.adaptable {
+    width: 95%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 4px dotted rgb(212, 87, 0);
+}
+nav li {
+    display: inline-block;
+    
+}
+nav a {
+    color: rgb(234, 77, 103);
+    padding: 1px;
+}
+nav a:hover {
+    color: rgb(35, 164, 153);
+}
+html{
+    scroll-behavior: smooth;
+}
+p {
+    color: rgb(255, 255, 255);
+}
+#miBoton {
+    background-color: rgb(210, 165, 248); /* Cambia el color de fondo */
+    color: white; /* Cambia el color del texto */
+    padding: 10px 20px; /* Ajusta el relleno (padding) del botón */
+    border: none; /* Elimina el borde del botón */
+    text-align: center; /* Alinea el texto al centro */
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
